@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Yassin Ezaier</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Arial;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 70px 20px 40px;
+      animation: fadeDown 1.2s ease;
+    }
+
+    h1 {
+      font-size: 46px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+    .lang-buttons button {
+      margin: 10px;
+      padding: 12px 22px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .lang-buttons button:hover {
+      transform: translateY(-3px) scale(1.05);
+      opacity: 0.9;
+    }
+
+    .ar { background: linear-gradient(135deg,#1abc9c,#16a085); color: white; }
+    .fr { background: linear-gradient(135deg,#3498db,#2980b9); color: white; }
+    .en { background: linear-gradient(135deg,#9b59b6,#8e44ad); color: white; }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+      display: none;
+      animation: fadeUp 0.9s ease;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.08);
+      padding: 30px;
+      border-radius: 20px;
+      margin-bottom: 35px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+      backdrop-filter: blur(6px);
+    }
+
+    .box h2, .box h3 {
+      margin-bottom: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 18px;
+      transition: 0.4s;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+
+    button#musicBtn {
+      margin-top: 15px;
+      padding: 14px 26px;
+      border-radius: 30px;
+      font-size: 17px;
+      background: linear-gradient(135deg,#ff9966,#ff5e62);
+      color: white;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    button#musicBtn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 25px;
+      opacity: 0.85;
+      font-size: 15px;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dr. Yassin Ezaier</h1>
+  <h2>Professeur de Physique – أستاذ مادة الفيزياء</h2>
+
+  <div class="lang-buttons">
+    <button class="ar" onclick="showLang('ar')">العربية</button>
+    <button class="fr" onclick="showLang('fr')">Français</button>
+    <button class="en" onclick="showLang('en')">English</button>
+    <button class="Physique" onclick="showLang('Physique')">Physique</button>
+  </div>
+</header>
+
+</div>
+
+  <div class="box">
+    <
+  <h3>رسالة شكر لك يا استادنا العزيز 🫶🏻❤️
+      
+    </h3>
+
+أستاذ مادة الفيزياء
+السلام عليكم ورحمة الله تعالى وبركاته،
+يسرّني أن أتقدّم إليكم بجزيل الشكر وعظيم الامتنان، تقديرًا لما تبذلونه من مجهودات جبّارة في سبيل إيصال مادة الفيزياء بأسلوب واضح ومبسط، يجمع بين الدقة العلمية وحسن الشرح.
+لقد كان لتفانيكم في العمل، وصبركم في التعامل مع التلاميذ، وأسلوبكم التحفيزي أثرٌ كبير في تنمية فهمنا للمادة، وتعزيز حبنا للعلم والمعرفة. إن إخلاصكم في أداء رسالتكم التعليمية يعكس روح الأستاذ الحقيقي، ويستحق كل التقدير والاحترام.
+نسأل الله تعالى أن يجزيكم عنا خير الجزاء، وأن يوفقكم في مسيرتكم المهنية، ويجعل ما تقدمونه في ميزان حسناتكم.
+وتفضلوا بقبول فائق عبارات الشكر والاحترام.
+والسلام عليكم ورحمة الله تعالى وبركاته.  </div>
+</div>
+
+<!-- French -->
+<div id="fr" class="content">
+  <div class="box">
+    <h2>Message de remerciement</h2>
+    <p>
+      Cher Professeur <strong>Dr. Yassin Ezaier</strong>,
+      nous vous remercions sincèrement pour tous vos efforts, votre patience
+      et votre dévouement tout au long de notre parcours.
+    </p>
+    <p>
+      Vous avez toujours été un modèle de respect, de sérieux et de motivation.
+      Votre impact restera gravé dans nos mémoires.
+    </p>
+    <p><strong>Vous resterez toujours dans nos cœurs, vous allez énormément nous manquer ❤️</strong></p>
+  </div>
+</div>
+
+<!-- English -->
+<div id="en" class="content">
+  <div class="box">
+    <h2>Thank You Message</h2>
+    <p>
+      Dear <strong>Dr. Yassin Ezaier</strong>,
+      thank you for your dedication, patience, and continuous support throughout our journey.
+    </p>
+    <p>
+      You were not only a physics teacher, but also a mentor and a source of inspiration.
+      Your lessons and kindness will always stay with us.
+    </p>
+    <p><strong>You will always be in our hearts, and we will truly miss you ❤️</strong></p>
+  </div>
+</div>
+
+<div class="box">
+  <h2>💐 كلمة ختامية</h2>
+  <p>
+    شكراً جزيلاً أستاذنا العزيز <strong>Dr. Yassin Ezaier</strong> على كل ما قدمته لنا من علم، صبر، وتفانٍ.
+    كنت دائماً القدوة الحسنة والمربي قبل أن تكون أستاذاً.
+  </p>
+  <p>
+    راك فالبال ديالنا وراك فالقلب ديالنا، وغادي تبقى ديما حاضر فذكرياتنا ❤️
+  </p>
+  <p>
+    نتمنى لك كل التوفيق في مسيرتك، ونسأل الله أن يجازيك عنا خير الجزاء.
+  </p>
+
+<footer>
+  Made with ❤️ as a final tribute to Dr. Yassin Ezaier
+</footer>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('.content').forEach(c => c.style.display = 'none');
+    document.getElementById(lang).style.display = 'block';
+  }
+  function toggleMusic() {
+    const music = document.getElementById('bgMusic');
+    const btn = document.getElementById('musicBtn');
+
+    if (music.paused) {
+      music.play();
+      btn.textContent = '⏸ إيقاف الموسيقى';
+    } else {
+      music.pause();
+      btn.textContent = '▶ تشغيل الموسيقى';
+    }
+  }
+</script>
+
+</body>
+</html>
